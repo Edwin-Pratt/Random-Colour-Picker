@@ -1,0 +1,58 @@
+html {
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 480px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#app {
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+#heading {
+  font-size: 3.5rem;
+  margin-top: 25px;
+}
+
+#generate-new-colour {
+  background-color: #0f0fdf;
+  font-size: 3rem;
+  color: white;
+  border-radius: 25px;
+  border: 2px solid black;
+  outline: none;
+}
+
+#output-colour {
+  font-size: 2.5rem;
+  font-family: monospace;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+  right: 0;
+}
+
+#view-profile, #view-source {
+  text-decoration: none;
+}
+ 
